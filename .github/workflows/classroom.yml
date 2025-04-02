@@ -1,0 +1,10 @@
+name: Autograding
+on: [push]
+
+jobs:
+  autograding:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Autograding
+        uses: education/autograding@v1
