@@ -1,4 +1,8 @@
 # 🏋️ Exercícios de Preparação para Prova Django
+## <span style="color: red;">Para criar o projeto usar `django-admin startproject biblioteca . ( sim o ponto faz parte do comando) </span>
+## <span style="color: red;">O projeto deve ser chamado : biblioteca </span>
+## <span style="color: red;">Para a Task 1 criar a aplicação chamada : livros </span>
+## <span style="color: red;">Para a Task 3 criar a aplicação chamada : usuarios </span>
 
 ## Task 1: MTV Básico (Livros) 📚
 ### Model
@@ -13,6 +17,7 @@
 ### Tarefas
 - Criar view listar_livros que renderiza template
 - Template livros.html mostrando lista em <ul>
+  - O template deve ser colocado na pasta templates/
 - URL /livros/ mapeada para a view
 - Registrar model no admin
 
